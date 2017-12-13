@@ -23,7 +23,6 @@ body {
 .logo {
     text-align: center;
     margin: 40px 0 60px 0;
-
 }
 
 .logo span {
@@ -67,6 +66,8 @@ nav li:after {
 nav li:last-child::after {
     content: "";
 }
+
+
 /*------------------------*/
 /* MAIN CONTENT */
 /*------------------------*/
