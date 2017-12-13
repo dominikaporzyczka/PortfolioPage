@@ -9,5 +9,51 @@ body {
     background-size: cover;
     background-position: center;
     font-family: Lato;
+    font-weight: 300;
+    font-size: 20px;
+    color: #fff;
+}
+
+/*------------------------*/
+/* HEADER */
+/*------------------------*/
+
+/*----- LOGO -----*/
+.logo {
+    text-align: center;
+    margin: 20px 0 60px 0;
 
 }
+
+.logo span {
+    text-transform: uppercase;
+    color: #e67e22;
+}
+
+/*----- NAVIGATION -----*/
+
+nav ul {
+    display: block;
+    list-style-type: none;
+    text-align: center;
+}
+
+nav ul li {
+    display: inline-block;
+}
+
+nav a:link,
+nav a:visited {
+    text-decoration: none;
+    color: #fff;
+    text-transform: uppercase;
+    margin: 0 10px;
+    padding-bottom: 8px;
+    border-bottom: 2px solid transparent;
+}
+
+nav a:hover,
+nav a:active {
+    border-bottom: 2px solid #e67e22;
+}
+
