@@ -40,6 +40,7 @@ nav ul {
 
 nav ul li {
     display: inline-block;
+    margin-bottom: 20px;
 }
 
 nav a:link,
@@ -87,6 +88,7 @@ nav li:last-child::after {
 .btn:link,
 .btn:visited {
     margin-top: 80px;
+    margin-bottom: 40px;
     display: inline-block;
     padding: 10px 30px;
     text-align: center;
